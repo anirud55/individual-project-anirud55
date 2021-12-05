@@ -21,7 +21,7 @@ public class ValidOrderStrat implements CheckoutStrat {
 			amt += item.getQuantity() * inventoryManager.getItem(item.getName()).getPrice();
 		}
 		BigDecimal amount = new BigDecimal(amt).setScale(2, RoundingMode.HALF_EVEN);
-		output.add("Total Amount: $" + amount);
+		output.add("Total Amount paid: $" + amount);
 		return output;
 	}
 

@@ -11,7 +11,7 @@ public class InvalidOrderStrat implements CheckoutStrat {
 	@Override
 	public ArrayList<String> checkout(List<Item> items) throws IOException {
 		ArrayList<String> output = new ArrayList<>();
-		output.add("Items with incorrect quantities");
+		output.add("List of items with incorrect quantities");
 		for (Item item : items) {
 			output.add("Name: " + item.getName() + ", Quantity: " + item.getQuantity());
 		}

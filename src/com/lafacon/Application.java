@@ -14,9 +14,9 @@ public class Application {
 
 	public static void main(String[] args) throws IOException {
 
-		String inventoryFile = "resources/dataset.csv";
+		String inventoryFile = "resources/Dataset.csv";
 		String creditCardFile = "resources/CreditCards.csv";
-		String inputFile = "resources/input1.csv";
+		String inputFile = "resources/Input3.csv";
 
 		if (args.length > 0) {
 			inventoryFile = args[0];
