@@ -26,8 +26,10 @@ public class Application {
 
 		initInventory(inventoryFile);
 		initCreditCardDb(creditCardFile);
+		System.out.println(creditCardDb.toString());
 		initOrder(inputFile);
 		start();
+		System.out.println(creditCardDb.toString());
 
 	}
 
